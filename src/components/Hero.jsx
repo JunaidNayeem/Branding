@@ -57,7 +57,7 @@ const Hero = () => {
           </p>
 
           <Button
-            href="https://drive.google.com/file/d/1R-PlnE5Ccy4bPQGbiTru23h_0xBj_924/view?usp=sharing"
+            href="https://docs.google.com/document/d/e/2PACX-1vQVaMWgOQWSR4joUnfkwTMkxrQWhFH_Wo5_tq_nIcGar0eSOp7f8feb1nCfG6099t6hk7zHqr4f92EP/pub"
             white
             external
           >
