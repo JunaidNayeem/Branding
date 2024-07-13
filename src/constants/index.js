@@ -8,6 +8,7 @@ import {
   disc02,
   discord,
   discordBlack,
+  email,
   facebook,
   figma,
   file02,
@@ -33,7 +34,9 @@ import {
   sliders04,
   telegram,
   twitter,
+  Linkedin,
   yourlogo,
+  github,
 } from "../assets";
 import { links } from "../config";
 
@@ -289,32 +292,32 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
+    title: "Github",
+    iconUrl: github,
+    url: "https://github.com/JunaidNayeem",
   },
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
+    title: "Linkedin",
+    iconUrl: Linkedin,
+    url: "https://www.linkedin.com/in/junaid-nayeem-51041a16a/",
   },
   {
     id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
+    title: "Email",
+    iconUrl: email,
+    url: "mailto:junaid85210@gmail.com",
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
+    title: "Instagram",
+    iconUrl: instagram,
+    url: "https://instagram.com/dark_night_dev",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=100012677851314",
   },
 ];

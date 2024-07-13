@@ -71,10 +71,13 @@ import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
+import github from "./socials/github-mark.svg";
+import Linkedin from "./socials/Linkedin-black.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import email from "./socials/email.svg";
 
 export {
   brainwave,
@@ -83,6 +86,7 @@ export {
   loading1,
   brainwaveSymbol,
   brainwaveWhiteSymbol,
+  email,
   play,
   pause,
   gradient,
@@ -98,6 +102,7 @@ export {
   disc02,
   chromecast,
   sliders04,
+  Linkedin,
   loading,
   background,
   curve,
@@ -141,6 +146,7 @@ export {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
+  github,
   discordBlack,
   facebook,
   instagram,

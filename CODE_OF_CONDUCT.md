@@ -1,4 +1,4 @@
-# Code of Conduct - Brainwave
+# Code of Conduct - Branding Portfolio
 
 ## Our Pledge
 

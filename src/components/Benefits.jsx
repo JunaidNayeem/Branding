@@ -8,7 +8,7 @@ import { curve } from "../assets";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="experience">
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
@@ -42,17 +42,17 @@ const Benefits = () => {
                 <h5 className="h5 mb-5">{benefit.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{benefit.text}</p>
                 <div className="flex items-center mt-auto">
-                  <img
+                  {/* <img
                     src={benefit.iconUrl}
                     width={48}
                     height={48}
                     alt={benefit.title}
-                  />
+                  /> */}
 
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                  {/* <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
-                  </p>
-                  <Arrow />
+                  </p> */}
+                  {/* <Arrow /> */}
                 </div>
               </div>
 
