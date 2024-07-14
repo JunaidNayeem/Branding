@@ -22,7 +22,7 @@ import {
   photoshop,
   plusSquare,
   protopie,
-  raindrop,
+  vercel,
   recording01,
   recording03,
   roadmap1,
@@ -33,7 +33,7 @@ import {
   slack,
   sliders04,
   telegram,
-  twitter,
+  postman,
   Linkedin,
   yourlogo,
   github,
@@ -128,21 +128,34 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Some top projects which includes personal as well as professional Web Applications.";
+export const brandText = "The website which you are currently looking at.😄";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Personal branding",
+    text: brandText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "TypeBook App",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Emedicos App",
+  },
+  {
+    id: "3",
+    title: "Taiyang Website",
+  },
+  {
+    id: "4",
+    title: "Ettiquate",
+  },
+  {
+    id: "5",
+    title: "KiranaOP",
   },
 ];
 
@@ -191,17 +204,17 @@ export const collabApps = [
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "Postman",
+    icon: postman,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
-    width: 38,
-    height: 32,
+    title: "Vercel",
+    icon: vercel,
+    width: 24,
+    height: 24,
   },
 ];
 
@@ -248,7 +261,7 @@ export const benefits = [
   {
     id: "0",
     title: "VE3",
-    text: "Full Stack Engineer proficient in the MERN stack and Python development, with strong problem-solving skills for efficient technical solutions. Expertise in front-end (React.js), back-end (Node.js, Express.js), developing chat AI models with Python, and creating system design packages for company products in npm libraries.",
+    text: "Full Stack Engineer proficient in the MERN stack and Python development, with strong problem-solving skills for efficient technical solutions. Expertise in front-end (React.js), back-end (Node.js, Express.js), developing chat AI models with Python, and contributing designing and development of Internal Data Analyst tool with integration of LLM",
     backgroundUrl: "/src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -265,7 +278,7 @@ export const benefits = [
   {
     id: "2",
     title: "Tech Synergia",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    text: "As the CTO, I led a team of over 20 members, including developers, designers, and project managers. Together, we successfully delivered more than 10 client projects, all of which are currently being used by enterprises and businesses.",
     backgroundUrl: "/src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
@@ -281,8 +294,16 @@ export const benefits = [
   },
   {
     id: "4",
+    title: "KiranaOnPhone",
+    text: "Worked and served as co-founder and CTO of Kirana On Phone.A realtime application which helped people at the time of Covid-19 Pandemic to get their groceriesat their doorstep and have recorded 1000+ successful & safty deliveries. ",
+    backgroundUrl: "/src/assets/benefits/card-5.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "5",
     title: "Iternity foundation",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    text: "3 Months Internship which helped me kickstart my career by developing algorithemic mindset of problem solving. Learned and solved 100+ DSA questions during the internship and worked on a realtime banking application, which also helped me understanding the large organization Infra Desgining and working.",
     backgroundUrl: "/src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,

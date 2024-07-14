@@ -31,6 +31,8 @@ import curve2 from "./collaboration/curve-2.svg";
 import discord from "./collaboration/discord.png";
 import figma from "./collaboration/figma.png";
 import framer from "./collaboration/framer.png";
+import postman from "./collaboration/postman.svg";
+import vercel from "./collaboration/vercel.svg"
 import notion from "./collaboration/notion.png";
 import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
@@ -121,6 +123,8 @@ export {
   service1,
   service2,
   service3,
+  postman,
+  vercel,
   lines,
   stars,
   coins,

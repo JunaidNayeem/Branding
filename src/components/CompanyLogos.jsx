@@ -17,7 +17,9 @@ const CompanyLogos = ({ className }) => {
         ))} */}
         <p align="center">
           <a href="https://skillicons.dev">
-            <img src="https://skillicons.dev/icons?i=git,react,nextjs,javascript,typescript,nodejs,express,mongo,tailwind,postgres,html,css,googlecloud,vercel,netlify" />
+            <img src="https://skillicons.dev/icons?i=git,react,nextjs,javascript,typescript,nodejs,express" />
+            <br />
+            <img src="https://skillicons.dev/icons?i=mongo,tailwind,postgres,html,css,googlecloud,vercel,netlify" />
           </a>
         </p>
       </ul>
