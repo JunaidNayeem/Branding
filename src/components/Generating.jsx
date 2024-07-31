@@ -1,4 +1,5 @@
 import { loading } from "../assets";
+import Typewriter from "typewriter-effect";
 
 const Generating = ({ className }) => {
   return (
@@ -12,7 +13,24 @@ const Generating = ({ className }) => {
         alt="Loading"
         className="w-5 h-5 mr-4 animate-spin pointer-events-none select-none"
       />
-      <span className="animate-pulse">Development in progress...</span>
+      <span className="animate-pulse">
+        <Typewriter
+          options={{
+            strings: [
+              " Developing highly interactive websites",
+              "Progressive Web Applications",
+              "Integration of third party services",
+              "FrontEnd",
+              "Backend",
+              "Logical Algos",
+              "Data Structure",
+            ],
+            autoStart: true,
+            loop: true,
+            delay: 25,
+          }}
+        />
+      </span>
     </div>
   );
 };

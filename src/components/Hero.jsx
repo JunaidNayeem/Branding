@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { ScrollParallax } from "react-just-parallax";
 import Typewriter from "typewriter-effect";
 
-import { curve, heroBackground, robot } from "../assets";
+import { curve, heroBackground, profile } from "../assets";
 import { heroIcons } from "../constants";
 import Button from "./Button";
 import CompanyLogos from "./CompanyLogos";
@@ -68,12 +68,11 @@ const Hero = () => {
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+              <div className="aspect-[33/40] rounded-b-[0.9rem] rounded-t-[0.9rem]  overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={robot}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%] pointer-events-none select-none"
+                  src={profile}
+                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[1%] lg:-translate-y-[38%] pointer-events-none select-none"
                   width={1024}
                   height={490}
                   alt="AI"
@@ -94,7 +93,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="Code collaboration"
                   />
                 </ScrollParallax>
               </div>

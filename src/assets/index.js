@@ -32,7 +32,7 @@ import discord from "./collaboration/discord.png";
 import figma from "./collaboration/figma.png";
 import framer from "./collaboration/framer.png";
 import postman from "./collaboration/postman.svg";
-import vercel from "./collaboration/vercel.svg"
+import vercel from "./collaboration/vercel.svg";
 import notion from "./collaboration/notion.png";
 import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
@@ -49,6 +49,7 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
+import profile from "./hero/profile.jpg";
 import roadmap1 from "./roadmap/image-1.png";
 import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
@@ -71,6 +72,11 @@ import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
+import ve3 from "./benefits/ve3.png";
+import shipthis from "./benefits/shipthis.jpeg";
+import techsynergia from "./benefits/techsynergia.png";
+import osl from "./benefits/osl.jpeg";
+import iternity from "./benefits/iternity.jpeg";
 
 import discordBlack from "./socials/discord.svg";
 import github from "./socials/github-mark.svg";
@@ -109,6 +115,7 @@ export {
   background,
   curve,
   robot,
+  profile,
   heroBackground,
   curve1,
   curve2,
@@ -150,6 +157,11 @@ export {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
+  ve3,
+  shipthis,
+  techsynergia,
+  osl,
+  iternity,
   github,
   discordBlack,
   facebook,

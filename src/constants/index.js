@@ -32,13 +32,16 @@ import {
   searchMd,
   slack,
   sliders04,
-  telegram,
+  ve3,
+  shipthis,
+  techsynergia,
+  osl,
+  iternity,
   postman,
   Linkedin,
   yourlogo,
   github,
 } from "../assets";
-import { links } from "../config";
 
 export const navigation = [
   {
@@ -60,13 +63,6 @@ export const navigation = [
     id: "3",
     title: "Contact",
     url: "#contact",
-  },
-  {
-    id: "4",
-    title: "Source Code",
-    url: links.sourceCode,
-    onlyMobile: true,
-    external: true,
   },
 ];
 
@@ -263,16 +259,16 @@ export const benefits = [
     title: "VE3",
     text: "Full Stack Engineer proficient in the MERN stack and Python development, with strong problem-solving skills for efficient technical solutions. Expertise in front-end (React.js), back-end (Node.js, Express.js), developing chat AI models with Python, and contributing designing and development of Internal Data Analyst tool with integration of LLM",
     backgroundUrl: "/src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    iconUrl: ve3,
+    imageUrl: ve3,
   },
   {
     id: "1",
     title: "Shipthis",
     text: "Collaborate with global clients to tailor ERP systems to their specific needs and continuously enhance software to elevate industry standards and efficiency, utilizing Angular for frontend development and Python with Node.js for backend processes.",
     backgroundUrl: "/src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    iconUrl: shipthis,
+    imageUrl: shipthis,
     light: true,
   },
   {
@@ -280,16 +276,16 @@ export const benefits = [
     title: "Tech Synergia",
     text: "As the CTO, I led a team of over 20 members, including developers, designers, and project managers. Together, we successfully delivered more than 10 client projects, all of which are currently being used by enterprises and businesses.",
     backgroundUrl: "/src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    iconUrl: techsynergia,
+    imageUrl: techsynergia,
   },
   {
     id: "3",
     title: "Opensense Labs",
     text: "Worked as an Associate Developer on React-based projects and Drupal-based websites, contributing to the Drupal community. Skills include Figma, SCSS, LESS, HTML, Git, JavaScript, Communication, GitHub, React.js, Responsive Web Design, and Web Applications.",
     backgroundUrl: "/src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    iconUrl: osl,
+    imageUrl: osl,
     light: true,
   },
   {
@@ -305,8 +301,8 @@ export const benefits = [
     title: "Iternity foundation",
     text: "3 Months Internship which helped me kickstart my career by developing algorithemic mindset of problem solving. Learned and solved 100+ DSA questions during the internship and worked on a realtime banking application, which also helped me understanding the large organization Infra Desgining and working.",
     backgroundUrl: "/src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    iconUrl: iternity,
+    imageUrl: iternity,
   },
 ];
 
