@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { ScrollParallax } from "react-just-parallax";
 import Typewriter from "typewriter-effect";
 
-import { curve, heroBackground, profile } from "../assets";
+import { curve, heroBackground, profile, profileMobile } from "../assets";
 import { heroIcons } from "../constants";
 import Button from "./Button";
 import CompanyLogos from "./CompanyLogos";
@@ -65,21 +65,27 @@ const Hero = () => {
           </Button>
         </div>
 
-        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] rounded-t-[0.9rem]  overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+              <div className="aspect-[20/40] rounded-b-[0.9rem] rounded-t-[0.9rem]  overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
                   src={profile}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[1%] lg:-translate-y-[38%] pointer-events-none select-none"
+                  className="hidden md:block w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[1%] lg:-translate-y-[0%] pointer-events-none select-none"
                   width={1024}
                   height={490}
                   alt="AI"
                 />
+                <img
+                  src={profileMobile}
+                  className="md:hidden w-full h-full translate-y-[0%] pointer-events-none select-none"
+                  width={500}
+                  height={1128}
+                  alt="AI"
+                />
 
-                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
-
+                <Generating className=" hidden md:inline-flex absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (
@@ -114,8 +120,7 @@ const Hero = () => {
 
           <BackgroundCircles />
         </div>
-
-        <CompanyLogos className="mobile relative z-10 mt-20 lg:block" />
+        <CompanyLogos className="mobile relative z-10 mt-100 lg:block" />
       </div>
 
       <BottomLine />
