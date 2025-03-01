@@ -45,7 +45,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button href="https://projects.junaid.tech">Have a look</Button>
+          <Button href="https://projects.junaidnayeem.in">Have a look</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

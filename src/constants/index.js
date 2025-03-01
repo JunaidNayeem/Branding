@@ -57,7 +57,7 @@ export const navigation = [
   {
     id: "2",
     title: "Projects",
-    url: "https://projects.junaid.tech",
+    url: "https://projects.junaidnayeem.in",
   },
   {
     id: "3",
