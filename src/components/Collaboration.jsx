@@ -11,15 +11,16 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[38rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            Developing Web Apps
+            Building Products{" "}
             <span className="inline-block relative font-semibold">
-              Smarter Faster Realiable
+              Smarter · Faster · Reliable
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
                 width={624}
                 height={28}
-                alt="Curve"
+                alt=""
+                aria-hidden="true"
               />
             </span>
           </h2>
@@ -31,7 +32,8 @@ const Collaboration = () => {
                   <img
                     src={check}
                     width={24}
-                    alt="check"
+                    alt=""
+                    aria-hidden="true"
                     height={24}
                     className="pointer-events-none select-none"
                   />
@@ -57,12 +59,15 @@ const Collaboration = () => {
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
-                  <img src={icon} width={48} height={48} alt="brainwave" />
+                  <img src={icon} width={48} height={48} alt="Junaid Nayeem avatar" />
                 </div>
               </div>
             </div>
 
-            <ul>
+            <ul
+              className="absolute inset-0 animate-[orbit_60s_linear_infinite] motion-reduce:animate-none"
+              aria-label="Tools I work with"
+            >
               {collabApps.map((app, i) => (
                 <li
                   key={app.id}
@@ -73,15 +78,17 @@ const Collaboration = () => {
                   <div
                     className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
                       i * 45
-                    } animate-pulse`}
+                    }`}
                   >
-                    <img
-                      src={app.icon}
-                      alt={app.title}
-                      width={app.height}
-                      height={app.height}
-                      className="m-auto"
-                    />
+                    <div className="flex w-full h-full animate-[orbit_60s_linear_infinite_reverse] motion-reduce:animate-none">
+                      <img
+                        src={app.icon}
+                        alt={app.title}
+                        width={app.height}
+                        height={app.height}
+                        className="m-auto"
+                      />
+                    </div>
                   </div>
                 </li>
               ))}

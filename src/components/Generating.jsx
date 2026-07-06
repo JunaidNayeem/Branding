@@ -1,4 +1,5 @@
 import { loading } from "../assets";
+import { generatingStrings } from "../constants";
 import Typewriter from "typewriter-effect";
 
 const Generating = ({ className }) => {
@@ -16,15 +17,7 @@ const Generating = ({ className }) => {
       <span className="animate-pulse">
         <Typewriter
           options={{
-            strings: [
-              " Developing highly interactive websites",
-              "Progressive Web Applications",
-              "Integration of third party services",
-              "FrontEnd",
-              "Backend",
-              "Logical Algos",
-              "Data Structure",
-            ],
+            strings: generatingStrings,
             autoStart: true,
             loop: true,
             delay: 25,
