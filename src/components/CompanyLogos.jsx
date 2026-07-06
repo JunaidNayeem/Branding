@@ -4,22 +4,22 @@ const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
       <h5 className="tagline mb-6 text-center text-n-1/50">
-        Integrating my Web Application with my skills
+        The technologies I ship with every day
       </h5>
       <ul className="flex justify-center">
-        {/* {companyLogos.map((logo, i) => (
-          <li
-            key={i}
-            className="flex items-center justify-center flex-1 h-[8.5rem]"
-          >
-            <img src={logo} width={134} height={28} alt={`Logo-${i}`} />
-          </li>
-        ))} */}
         <p align="center">
           <a href="https://skillicons.dev">
-            <img src="https://skillicons.dev/icons?i=git,react,nextjs,javascript,typescript,nodejs,express" />
+            <img
+              src="https://skillicons.dev/icons?i=typescript,react,nextjs,nodejs,express,angular,tailwind"
+              alt="TypeScript, React, Next.js, Node.js, Express, Angular, Tailwind CSS"
+              loading="lazy"
+            />
             <br />
-            <img src="https://skillicons.dev/icons?i=mongo,tailwind,postgres,html,css,googlecloud,vercel,netlify" />
+            <img
+              src="https://skillicons.dev/icons?i=postgres,supabase,prisma,mongodb,docker,kubernetes,aws,vercel"
+              alt="PostgreSQL, Supabase, Prisma, MongoDB, Docker, Kubernetes, AWS, Vercel"
+              loading="lazy"
+            />
           </a>
         </p>
       </ul>
